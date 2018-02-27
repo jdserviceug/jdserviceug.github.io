@@ -89,3 +89,8 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $gray-darker;
 }
+
+.logo-fluid {
+  max-width: 50%;
+  height: auto;
+}
