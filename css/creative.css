@@ -78,7 +78,12 @@ body {
   -webkit-tap-highlight-color: #222222; }
 
 .logo-fluid {
-  max-width: 50%;
+  max-width: 45%;
+  height: auto;
+  margin-bottom: 20px; }
+
+.logo-fluid-2 {
+  max-width: 25%;
   height: auto; }
 
 #mainNav {
@@ -160,7 +165,7 @@ header.masthead {
   header.masthead .header-content {
     position: relative;
     width: 100%;
-    padding: 150px 15px 100px;
+    padding: 100px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
       font-size: 30px;
