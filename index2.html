@@ -93,24 +93,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Objekttbetreuung</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+            <div class="service-box" data-toggle="modal" data-target="#ModalObjektbetreuung">
+              <i class="fa fa-4x fa-home text-primary sr-icons"></i>
+              <h3>Objektbetreuung</h3>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+            <div class="service-box" data-toggle="modal" data-target="#ModalMontage">
+              <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
               <h3>Montage</h3>
-              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+            <div class="service-box" data-toggle="modal" data-target="#ModalIT">
+              <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
               <h3>IT-Service</h3>
-              <p class="text-muted">We update dependencies to keep things fresh.</p>
+              <p class="text-muted"></p>
             </div>
           </div>
           <!--div class="col-lg-3 col-md-6 text-center">
@@ -128,45 +128,45 @@
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <a class="portfolio-box" href="img/jds/objektbetreuung.jpg">
+              <img class="img-fluid" src="img/jds/objektbetreuung.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    <i class="fa fa-4x fa-home text sr-icons"></i>
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Objektbetreuung
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <a class="portfolio-box" href="img/jds/montage.jpg">
+              <img class="img-fluid" src="img/jds/montage.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    <i class="fa fa-4x fa-wrench text sr-icons"></i>
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Montage
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <a class="portfolio-box" href="img/jds/itservice.jpg">
+              <img class="img-fluid" src="img/jds/itservice.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    <i class="fa fa-4x fa-desktop text sr-icons"></i>
                   </div>
                   <div class="project-name">
-                    Project Name
+                    IT-Service
                   </div>
                 </div>
               </div>
@@ -221,12 +221,12 @@
       </div>
     </section>
 
-    <div class="call-to-action bg-dark">
+    <!--div class="call-to-action bg-dark">
       <div class="container text-center">
         <h2>Free Download at Start Bootstrap!</h2>
         <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
       </div>
-    </div>
+    </div-->
 
     <section id="contact">
       <div class="container">
@@ -251,13 +251,116 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x sr-contact"></i>
             <p>
-              <a href="mailto:service.rosenheim@gmail.com">service.rosenheim@gmail.com</a>
+              <a href="mailto:info@jd-service.com">info@jd-service.com</a>
             </p>
           </div>
         </div>
       </div>
     </section>
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="ModalObjektbetreuung" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+
+              <!--i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3>Objektbetreuung</h3-->
+            <i class="fa fa-4x fa-home text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">Objektbetreuung</h3>
+
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Überwachung des einwandfreien Gesamtzustandes des Objektes und der technischen Anlagen</li>
+              <li>Heizungsanlagen und Brennstoffvorräte überwachen</li>
+              <li>Tiefgaragen-Technik Überwachung, Leuchtmitteltausch</li>
+              <li>Wohnungsentrümpelung</li>
+              <li>Parkett bzw. Laminat verlegen</li>
+              <li>Grünanlagenpflege (Hecke schneiden, Hecke pflanzen, Rasen säen, Rasen mähen,
+              Vertikutieren und vieles mehr...)</li>
+              <li>Kleinere Reparaturarbeiten</li>
+              <li>Winterdienst</li>
+              <li>Fliesenfugen erneuern</li>
+              <li>Maler Ausbesserungsarbeiten</li>
+              <li>Wohnungsabnahmen, Wohnungsübergaben</li>
+              <li>Holzschutz</li>
+            </ul>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ModalMontage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 300px">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+            <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">Montage</h3>
+
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Schränke, Regale</li>
+              <li>Sichtschutz</li>
+              <li>Markisen</li>
+              <li>Büromöbel</li>
+              <li>Satellitenschüsseln</li>
+              <li>usw.</li>
+            </ul>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ModalIT" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+            <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">IT-Service</h3>
+
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Router konfigurieren und WLAN einrichten</li>
+              <li>Videoüberwachung</li>
+              <li>Elektrogeräte programmieren und in Betrieb nehmen</li>
+              <li>Netzwerke</li>
+              <li>Cloud Lösungen</li>
+              <li>IP - Telefonie / Telefonanlagen</li>
+              <li>Internet-Prâsenz</li>
+              <li>usw.</li>
+            </ul>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
