@@ -72,4 +72,9 @@
     }
   });
 
+  $("#it-service-modal").click(function(){
+        $("#ModalIt").modal();
+  });
+
+
 })(jQuery); // End of use strict

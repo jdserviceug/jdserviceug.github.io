@@ -63,7 +63,8 @@
           <!--h1 id="homeHeading">Ihr Partner für IT-Service, Objektbetreuung, Montage</h1-->
           <hr>
           <p>Kontaktieren Sie uns noch heute für ein individuelles Angebot.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="">Call</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="tel:+491623695243">Call: Jan Woytinnek</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="tel:+4915252063992">Call: Dennis Kong</a>
         </div>
       </div>
     </header>
@@ -74,7 +75,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">Umfangreiche Services aus einer Hand.</h2>
             <hr class="light">
-            <p class="text-faded">Durch unser umfangreiches Leistungsangebot kònnen wir Ihnen alle handwerklichen Tätigkeiten rund um Ihre Immobilie aus einer Hand anbieten. Überzeugen Sie sich selbst!</p>
+            <p class="text-faded">Durch unser umfangreiches Leistungsangebot können wir Ihnen alle handwerklichen Tätigkeiten rund um Ihre Immobilie aus einer Hand anbieten. Überzeugen Sie sich selbst!</p>
             <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Kontakt!</a>
           </div>
         </div>
@@ -93,6 +94,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box" data-toggle="modal" data-target="#ModalIT">
+              <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
+              <h3>IT-Service</h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box" data-toggle="modal" data-target="#ModalObjektbetreuung">
               <i class="fa fa-4x fa-home text-primary sr-icons"></i>
               <h3>Objektbetreuung</h3>
@@ -106,13 +114,7 @@
               <p class="text-muted"></p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box" data-toggle="modal" data-target="#ModalIT">
-              <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
-              <h3>IT-Service</h3>
-              <p class="text-muted"></p>
-            </div>
-          </div>
+
           <!--div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
@@ -125,10 +127,27 @@
     </section>
 
     <section class="p-0" id="portfolio">
+
       <div class="container-fluid">
-        <div class="row no-gutter popup-gallery">
+
+        <div class="row no-gutter">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/jds/objektbetreuung.jpg">
+            <a class="portfolio-box" href="img/jds/itservice.jpg" data-toggle="modal" data-target="#ModalIT">
+              <img class="img-fluid" src="img/jds/itservice.jpg" alt="">
+              <div id="it-service-modal" class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <i class="fa fa-4x fa-desktop text sr-icons"></i>
+                  </div>
+                  <div class="project-name">
+                    IT-Service
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/jds/objektbetreuung.jpg" data-toggle="modal" data-target="#ModalObjektbetreuung">
               <img class="img-fluid" src="img/jds/objektbetreuung.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -143,7 +162,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/jds/montage.jpg">
+            <a class="portfolio-box" href="img/jds/montage.jpg" data-toggle="modal" data-target="#ModalMontage">
               <img class="img-fluid" src="img/jds/montage.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -157,66 +176,6 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/jds/itservice.jpg">
-              <img class="img-fluid" src="img/jds/itservice.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    <i class="fa fa-4x fa-desktop text sr-icons"></i>
-                  </div>
-                  <div class="project-name">
-                    IT-Service
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!--div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div-->
         </div>
       </div>
     </section>
@@ -240,7 +199,14 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x sr-contact"></i>
-            <p>+49(0)151-72108901</p>
+            <ul style="list-style-type:none; padding:0;" >
+              <li>
+                Jan Woytinnek: +49(162)3695243
+              </li>
+              <li>
+                Dennis Kong: +49(152)52063992
+              </li>
+            </ul>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x sr-contact"></i>
@@ -251,7 +217,7 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x sr-contact"></i>
             <p>
-              <a href="mailto:info@jd-service.com">info@jd-service.com</a>
+              <a href="mailto:info@jd-service.com">info@jd-service.com  </a>
             </p>
           </div>
         </div>
