@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JD Service UG (haftungsbrschränkt)</title>
+    <title>JD Service UG (haftungsbrschränkt)- IT-Service - Objectbetreuung - Montage</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,24 +29,443 @@
   <body id="page-top">
 
     <!-- Navigation -->
-
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">JD - Service UG (haftungsbeschränkt)</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Claim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Leistungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" data-target="#ModalAGB" href="">AGB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <header class="masthead">
       <div class="header-content">
+
         <div class="header-content-inner">
           <img class="logo-fluid" src="img/logo-weiss.png" alt="">
-
-          <h1 id="homeHeading">Hier entsteht die Internetpräsenz <br /> von www.jd-service.com</h1>
+          <h1 id="homeHeading">Ihr Partner für <br />IT-Service <br /> Objektbetreuung <br/ >Montage</h1>
           <!--h1 id="homeHeading">Ihr Partner für IT-Service, Objektbetreuung, Montage</h1-->
+          <hr>
+          <p>Kontaktieren Sie uns noch heute für ein individuelles Angebot.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="tel:+491623695243">Call: Jan Woytinnek</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="tel:+4915252063992">Call: Dennis Kong</a>
         </div>
       </div>
     </header>
 
-    <footer class="footer">
-      <div class="col-lg-8 mx-auto text-center">
-        <span>Impressum: Dennis Kong, Happinger Str. 92, 83026 Rosenheim, mail: admin(at)jd-service.com</span>
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Umfangreiche Services aus einer Hand.</h2>
+            <hr class="light">
+            <p class="text-faded">Durch unser umfangreiches Leistungsangebot können wir Ihnen alle handwerklichen Tätigkeiten rund um Ihre Immobilie aus einer Hand anbieten. Überzeugen Sie sich selbst!</p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Kontakt!</a>
+          </div>
+        </div>
       </div>
-    </footer>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Unsere Leistungen</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box" data-toggle="modal" data-target="#ModalIT">
+              <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
+              <h3>IT-Service</h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box" data-toggle="modal" data-target="#ModalObjektbetreuung">
+              <i class="fa fa-4x fa-home text-primary sr-icons"></i>
+              <h3>Objektbetreuung</h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box" data-toggle="modal" data-target="#ModalMontage">
+              <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+              <h3>Montage</h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+
+          <!--div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>Made with Love</h3>
+              <p class="text-muted">You have to make your websites with love these days!</p>
+            </div>
+          </div-->
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+
+      <div class="container-fluid">
+
+        <div class="row no-gutter">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/jds/itservice.jpg" data-toggle="modal" data-target="#ModalIT">
+              <img class="img-fluid" src="img/jds/itservice.jpg" alt="">
+              <div id="it-service-modal" class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <i class="fa fa-4x fa-desktop text sr-icons"></i>
+                  </div>
+                  <div class="project-name">
+                    IT-Service
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/jds/objektbetreuung.jpg" data-toggle="modal" data-target="#ModalObjektbetreuung">
+              <img class="img-fluid" src="img/jds/objektbetreuung.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <i class="fa fa-4x fa-home text sr-icons"></i>
+                  </div>
+                  <div class="project-name">
+                    Objektbetreuung
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/jds/montage.jpg" data-toggle="modal" data-target="#ModalMontage">
+              <img class="img-fluid" src="img/jds/montage.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <i class="fa fa-4x fa-wrench text sr-icons"></i>
+                  </div>
+                  <div class="project-name">
+                    Montage
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </div-->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Kontaktieren Sie uns!</h2>
+            <hr class="primary">
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <ul style="list-style-type:none; padding:0;" >
+              <li>
+                Jan Woytinnek: +49(162)3695243
+              </li>
+              <li>
+                Dennis Kong: +49(152)52063992
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              Happinger Str. 92, 83026 Rosenheim
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:info@jd-service.com">info@jd-service.com  </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="ModalObjektbetreuung" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+
+              <!--i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3>Objektbetreuung</h3-->
+            <i class="fa fa-4x fa-home text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">Objektbetreuung</h3>
+
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Überwachung des einwandfreien Gesamtzustandes des Objektes und der technischen Anlagen</li>
+              <li>Heizungsanlagen und Brennstoffvorräte überwachen</li>
+              <li>Tiefgaragen-Technik Überwachung, Leuchtmitteltausch</li>
+              <li>Wohnungsentrümpelung</li>
+              <li>Parkett bzw. Laminat verlegen</li>
+              <li>Grünanlagenpflege (Hecke schneiden, Hecke pflanzen, Rasen säen, Rasen mähen,
+              Vertikutieren und vieles mehr...)</li>
+              <li>Kleinere Reparaturarbeiten</li>
+              <li>Winterdienst</li>
+              <li>Fliesenfugen erneuern</li>
+              <li>Maler Ausbesserungsarbeiten</li>
+              <li>Wohnungsabnahmen, Wohnungsübergaben</li>
+              <li>Holzschutz</li>
+            </ul>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ModalMontage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 300px">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+            <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">Montage</h3>
+
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Schränke, Regale</li>
+              <li>Sichtschutz</li>
+              <li>Markisen</li>
+              <li>Büromöbel</li>
+              <li>Satellitenschüsseln</li>
+              <li>usw.</li>
+            </ul>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ModalIT" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+            <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">IT-Service</h3>
+
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Router konfigurieren und WLAN einrichten</li>
+              <li>Videoüberwachung</li>
+              <li>Elektrogeräte programmieren und in Betrieb nehmen</li>
+              <li>Netzwerke</li>
+              <li>Cloud Lösungen</li>
+              <li>IP - Telefonie / Telefonanlagen</li>
+              <li>Internet-Prâsenz</li>
+              <li>usw.</li>
+            </ul>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="ModalAGB" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 900px">
+        <div class="modal-content">
+          <div style="padding-top: 1rem;padding-right: 1rem;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="text-center" style="padding: 1rem; padding-top: 0rem; padding-bottom: 0;">
+            <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+            <h3 class="modal-title" id="exampleModalLongTitle">ALLGEMEINE GESCHÄFTSBEDINGUNGEN</h3>
+
+          </div>
+          <div class="modal-body">
+
+            <p>
+            § 1 Geltungsbereich
+            </p>
+            <p>
+            1.  Für alle Rechtsbeziehungen zwischen der JD-Service UG(haftungsbeschränkt) und dem Kunden gelten
+                 ausschließlich die folgenden allgemeinen Geschäftsbedingungen.
+            </p>
+            <p>
+            2.  Abweichende allgemeine Geschäftsbedingungen des Kunden werden abgewiesen.
+            </p>
+            <p>
+            § 2 Art und Umfang der Leistung
+            </p>
+            <p>
+            1.  Das Dienstleistungsangebot der JD-Service UG(haftungsbeschränkt) umfasst hauptsächlich die Bereiche:
+            IT-Service, Objektbetreuung (Hausmeisterservice), Montage sowohl in Privathaushalten als auch bei Firmen, Institutionen und Einrichtungen.
+            </p>
+            <p>
+             2.  Die Dienstleistungen werden individuell auf die Bedürfnisse und Wünsche des Kunden abgestimmt. Eine
+                 Erweiterung, Änderung oder Abweichung des Dienstleistungsangebotes kann jederzeit vorgenommen werden.
+                 Zudem ist die JD-Service UG(haftungsbeschränkt) berechtigt, einzelne Leistungen an Subunternehmer zu
+                 vergeben.
+            </p>
+            <p>
+                § 3 Vertragsabschluss
+            </p>
+            <p>
+            Ein Dienstleistungsvertrag zwischen der JD-Service UG(haftungsbeschränkt) und dem Kunden kommt durch eine mündliche oder schriftliche Auftragsbestätigung zustande. Es wird die tatsächlich geleistete Stundenzahl nach dem vereinbarten Stundensatz abgerechnet. Es werden keine Kündigungsfristen vereinbart, so dass der Vertrag jederzeit aufgelöst werden kann.
+            </p>
+            <p>
+            § 4 Gewährleistung und Haftung
+            </p>
+
+            <p>
+            Bei wiederkehrenden Leistungen gelten diese als erfüllt und abgenommen, wenn der Auftraggeber nicht unverzüglich – spätestens bei Ingebrauchnahme – die Mängel oder Schäden anzeigt und diese genau beschreibt. Dies muss direkt bei der Geschäftsführung erfolgen, nicht durch den Mitarbeiter.
+            </p>
+            <p>
+            Bei einmaligen Leistungen erfolgt die Abnahme spätestens nach Beendigung durch die JD-Service UG(haftungsbeschränkt). Kommt der Auftraggeber der Abnahme nicht nach, gilt die Leistung als abgenommen.
+            </p>
+
+            <p>
+            Wird ein berechtigter Mangel festgestellt, so ist die JD-Service UG(haftungsbeschränkt) zur Nachbesserung verpflichtet. Für Mängel und Schäden, die auf fehlende Informationen durch den Auftraggeber zurückzuführen sind, kann keine Gewährleistung oder Haftung übernommen werden.
+            </p>
+            <p>
+            Schadensersatz kann nur bei Vorsatz und grober Fahrlässigkeit geltend gemacht werden. Schadensersatzansprüche, die nicht auf einer solchen vorsätzlichen oder grob fahrlässigen Vertragsverletzung beruhen, sind ausgeschlossen.
+            </p>
+            <p>
+            § 5 Preise und Preisänderungen
+            </p>
+            <p>
+            Die angegebenen Preise sind Nettopreise zzgl. der gesetzlich geltenden Mehrwertsteuer.
+
+            Die Preise richten sich nach den zum Zeitpunkt des Vertrages getroffenen Vereinbarungen. Sollten sich Preisänderungen ergeben, ist der Auftraggeber darüber schriftlich zu informieren. Für die Wirksamkeit bedarf es der Zustimmung des Auftraggebers.
+
+            Sofern keine andere Vereinbarung erfolgt, wird die tatsächlich geleistete Stundenzahl mit dem vereinbarten Stundensatz abgerechnet. Die Abrechnung erfolgt im ¼-Stunden-Takt, mindestens jedoch 2 Stunden. Bei Entfernungen von mehr als zehn Kilometern vom Firmensitz bis zum Auftraggeber, behalten sich die JD-Service UG(haftungsbeschränkt) die Berechnung einer Kilometerpauschale vor.
+            </p>
+            <p>
+            § 6 Rechnungstellung und Zahlungsbedingungen
+            </p>
+            <p>
+            Bei Einzelaufträgen erfolgt die Rechnungstellung sofort, in allen anderen Fällen jeweils zum Monatsende.
+
+            Rechnungen sind brutto ohne Abzug innerhalb von 7 Tagen nach Rechnungsdatum zahlbar. Die Bezahlung erfolgt auf das angegebene Bankkonto, Barzahlungen werden nicht angenommen.
+
+            Bei Zahlungsverzug behalten sich die JD-Service UG(haftungsbeschränkt) vor, ihre Dienstleistungen ohne Vorankündigung zurückzubehalten. Zudem behalten sich die JD-Service UG(haftungsbeschränkt) vor, bei Mahnungen 5,00 € Mahnkosten in Rechnung zu stellen.
+
+             Der Auftraggeber hat kein Recht auf Einbehaltung von Sicherheitsbeträgen für die Fertigstellung der vertraglichen Leistungen, eventueller Gewährleistungsansprüche oder sonstiger Gründe.
+            </p>
+            <p>
+            § 7 Schweigepflicht und Datenschutz
+            </p>
+            <p>
+            Die JD-Service UG(haftungsbeschränkt) und deren Mitarbeiter verpflichten sich, über alle persönlichen Informationen und Verhältnisse absolutes Stillschweigen zu bewahren und die Diskretion zu wahren.
+
+             Für die Beauftragung der Dienstleistungen müssen persönliche Daten erhoben und gespeichert werden, soweit es für die Erbringung der Dienstleistung oder Erfüllung des Vertrages notwendig ist.
+
+            Es kann erforderlich sein, dass Ihre Daten an Unternehmen wie zum Bespiel Subunternehmer, Erfüllungsgehilfen oder Dienstleister weitergegeben werden, die zur Erbringung der Dienstleistung von der JD-Service UG(haftungsbeschränkt) beauftragt werden. Die JD- Service UG(haftungsbeschränkt) sichern die vertrauliche Behandlung der erhobenen Daten zu und verpflichten etwaige Dritte zur Beachtung datenschutzrechtlicher Bestimmungen.
+            </p>
+            <p>
+            § 8 Abwerbung
+            </p>
+            <p>
+            Jegliche Abwerbung oder zusätzliche stundenweise Beschäftigung von Personal der JD-Service UG(haftungsbeschränkt) ist unzulässig und verstößt gegen die gegenseitige vertragliche Treuepflicht.
+            Der Auftraggeber erklärt sich ausdrücklich damit einverstanden und verpflichtet sich, während sowie
+            mindestens 6 Monate nach Beendigung der Tätigkeit/Dienstleistungen keinen Mitarbeiter der JD-Service UG(haftungsbeschränkt) abzuwerben oder anderweitig zu beschäftigen, weder direkt noch indirekt über Dritte. Die JD-Service UG(haftungsbeschränkt) ist daher berechtigt, eine Vertragsstrafe in Höhe von 12 Monatsgehältern des jeweiligen Mitarbeiters zu erheben.
+            </p>
+            <p>
+            § 9 Rechte und Pflichten
+            </p>
+            <p>
+            Die JD-Service UG(haftungsbeschränkt) stellen ausschließlich Personal zur Verfügung. Alle Mitarbeiter werden ordnungsgemäß angemeldet und sowohl haftpflicht- als auch unfallversichert. Materialen und Geräte die in der Neuanschaffung nötig sind, die einen Warenwert von 500 Euro überschreiten, sind per Vorkasse zu leisten. Nach Absprache kann auch eine andere Vereinbarung getroffen werden.
+
+            Termine sind fest vereinbart und müssen von beiden Seiten eingehalten werden. Eine Absage erfolgt bis spätestens 2 Tage vor dem vereinbarten Termin. Die JD-Service UG(haftungsbeschränkt) behält sich in diesem Falle vor, bei nicht rechtzeitiger Absage die vereinbarten Stunden in Rechnung zu stellen. Im Fall der höheren Gewalt ist die JD-Service UG8haftungsbeschränkt) berechtigt, die Leistungen nachzuholen.
+
+            Der Auftraggeber hat der JD-Service UG(haftungsbeschränkt) freien Zugang zu den Räumen oder dem Gelände der Dienstleistungserbringung zu verschaffen. Erfolgt dies durch die Aushändigung eines Schlüssels,
+            so kann die JD-Service UH(haftungsbeschränkt) keine Haftung für eventuellen Verlust übernehmen. Der Auftraggeber muss
+            sich selber um eine Absicherung kümmern.
+            </p>
+            <p>
+            § 10 Gerichtsstand
+            </p>
+            <p>
+            Als Gerichtsstand gilt das Amtsgericht:  Traunstein
+            </p>
+            <p>
+            § 11 Vertragsänderung/Salvatorische Klausel
+            </p>
+            <p>
+            Eine Vertragsänderung oder Ergänzung dieses Vertrages bedarf grundsätzlich der Schriftform. Mündliche Abreden bedürfen der schriftlichen Bestätigung.
+
+            Sollte eine Bestimmung dieses Vertrages unwirksam sein, wird die Wirksamkeit der übrigen Bestimmungen davon nicht berührt. Die Parteien verpflichten sich, anstelle einer unwirksamen Bestimmung eine dieser Bestimmung möglichst nahekommende wirksame Regelung zu treffen.
+            </p>
+          </div>
+          <!--div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div-->
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
